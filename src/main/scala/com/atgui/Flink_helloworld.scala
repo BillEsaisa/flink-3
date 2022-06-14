@@ -17,7 +17,7 @@ object Flink_helloworld {
       .groupBy(0)
       .sum(1)
 
-    Thread.sleep(300)
+    Thread.sleep(200)
 
     result.print()
 
